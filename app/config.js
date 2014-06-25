@@ -1,4 +1,4 @@
-var scripturesApp = angular.module('scripturesApp', []);
+var scripturesApp = angular.module('scripturesApp', ['ng-route']);
 
 scripturesApp.config(function ($routeProvider) {
     $routProvider
