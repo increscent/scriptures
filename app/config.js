@@ -6,5 +6,9 @@ scripturesApp.config(function ($routeProvider) {
             templateUrl: 'app/templates/worksIndex.html',
             controller: 'worksIndexController'
         })
+        .when('/test', {
+            templateUrl: 'app/templates/worksIndex.html',
+            controller: 'testController'
+        })
         .otherwise({redirectTo: '/'});
 });
