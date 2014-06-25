@@ -13,8 +13,8 @@
 	<link rel="icon" type="image/png" href="/images/favicon.png" />
 	
     <!-- angular cdn -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>
     <!-- jquery cdn -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
@@ -41,12 +41,13 @@
     </div>
     
 	<!-- app files
-	<script type="text/javascript" src="/app/config.js"></script>
-	<script type="text/javascript" src="/app/controllers.js"></script>
+	<script src="/app/config.js"></script>
+	<script src="/app/controllers.js"></script>
 	
-	<script type="text/javascript" src="/scriptures.js"></script> -->
+	<script src="/scriptures.js"></script> -->
 	
 	<script type="text/javascript">
+	$(document).ready(function() {
 	    var scripturesApp = angular.module('scripturesApp', ['ngRoute']);
 
 scripturesApp.config(function ($routeProvider) {
@@ -60,6 +61,7 @@ scripturesApp.config(function ($routeProvider) {
 
 scripturesApp.controller('worksIndexController', function ($scope) {
     $scope.name = "robert";
+});
 });
 	</script>
 </body>
