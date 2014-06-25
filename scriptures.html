@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<html>
+<html ng-app="scripturesApp">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
@@ -28,22 +28,17 @@
 	<div id="page">
 		<div id="content">
 			
-			<div id="nav-top" class="nav-bar"><span class="glyphicon glyphicon-home"></span></div>
-			<div id="index" class="current">
-				<div id="works"></div>
-				<div id="books"></div>
-				<div id="chapters"></div>
-			</div>
-			<div id="plates"></div>
-			<div id="nav-bottom" class="nav-bar"></div>
+			<ng-view></ng-view>
 			
 		</div>
     </div>
     <!-- angular cdn -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-
-	<!-- jquery cdn -->
+    <!-- jquery cdn -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- app files -->
+	<script src="/app/config.js"></script>
+	<script src="/app/controllers.js"></script>
 	
 	<script type="text/javascript" src="/scriptures.js"></script>
 </body>
