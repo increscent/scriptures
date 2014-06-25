@@ -13,8 +13,8 @@
 	<link rel="icon" type="image/png" href="/images/favicon.png" />
 	
     <!-- angular cdn -->
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>-->
     <!-- jquery cdn -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
@@ -47,16 +47,16 @@
 	<script type="text/javascript" src="/scriptures.js"></script> -->
 	
 	<script type="text/javascript">
-	    var scripturesApp = angular.module('scripturesApp', ['ngRoute']);
+	    var scripturesApp = angular.module('scripturesApp', []);
 
-scripturesApp.config(function ($routeProvider) {
+/*scripturesApp.config(function ($routeProvider) {
     $routProvider
         .when('/', {
             templateUrl: 'app/templates/worksIndex.html',
             controller: 'worksIndexController'
         })
         .otherwise({redirectTo: '/'});
-});
+});*/
 
 scripturesApp.controller('worksIndexController', function ($scope) {
     $scope.name = "robert";
