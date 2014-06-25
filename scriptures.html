@@ -40,10 +40,27 @@
 		</div>
     </div>
     
-	<!-- app files -->
+	<!-- app files
 	<script type="text/javascript" src="/app/config.js"></script>
 	<script type="text/javascript" src="/app/controllers.js"></script>
 	
-	<script type="text/javascript" src="/scriptures.js"></script>
+	<script type="text/javascript" src="/scriptures.js"></script> -->
+	
+	<script type="text/javascript">
+	    var scripturesApp = angular.module('scripturesApp', ['ngRoute']);
+
+scripturesApp.config(function ($routeProvider) {
+    $routProvider
+        .when('/', {
+            templateUrl: 'app/templates/worksIndex.html',
+            controller: 'worksIndexController'
+        })
+        .otherwise({redirectTo: '/'});
+});
+
+scripturesApp.controller('worksIndexController', function ($scope) {
+    $scope.name = "robert";
+});
+	</script>
 </body>
 </html>
