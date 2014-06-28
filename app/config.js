@@ -2,13 +2,9 @@ var scripturesApp = angular.module('scripturesApp', ['ngRoute']);
 
 scripturesApp.config(function ($routeProvider) {
     $routeProvider
-        .when('/', {
+        .when('/works', {
             templateUrl: 'app/templates/worksIndex.html',
             controller: 'worksIndexController'
         })
-        .when('/test', {
-            templateUrl: 'app/templates/worksIndex.html',
-            controller: 'testController'
-        })
-        .otherwise({redirectTo: '/'});
+        .otherwise({redirectTo: '/works'});
 });
