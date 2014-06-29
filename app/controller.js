@@ -1,8 +1,10 @@
 scripturesApp.controller('worksIndexController', function ($scope, indexFactory) {
-    $scope.name = indexFactory.name;
-    indexFactory.name = 'harry';
-});
-
-scripturesApp.controller('testController', function ($scope, indexFactory) {
-    $scope.name = indexFactory.name;
+    $scope.works = indexFactory.getWorks();
+    // retain original ordering
+    $scope.notSorted = function(obj) {
+        if (!obj) {
+            return [];
+        }
+        return Object.keys(obj);
+    };
 });

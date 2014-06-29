@@ -49,10 +49,6 @@ body {
 	max-width: 987px;
 }
 
-#footer {
-	display: none;
-}
-
 .nav-bar {
 	position: fixed;
 	-webkit-box-sizing: border-box;
@@ -124,7 +120,6 @@ body {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;
-	display: none;
 	
 	margin: 0;
 	padding: 0 7px;
