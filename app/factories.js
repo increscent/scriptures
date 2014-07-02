@@ -1,4 +1,4 @@
-scripturesApp.factory('indexFactory', function($http) {
+scripturesApp.factory('indexFactory', function () {
 	// (index is a global variable)
     var factory = {};
 	factory.getWorks = function () {
