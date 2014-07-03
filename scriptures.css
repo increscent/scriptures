@@ -118,7 +118,7 @@ body {
 
 #index, .plate {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-moz-box-sizing: border-box;	/* Firefox, other Gecko */
 	box-sizing: border-box;
 	
 	margin: 0;
@@ -131,11 +131,11 @@ body {
 }
 
 .link {
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;	/* Firefox, other Gecko */
 	box-sizing: border-box;
-    
-    margin: 0 auto 7px;
+	
+	margin: 0 auto 7px;
 	border: solid #bbb 1px;
 	padding: 3px 5px;
 	
@@ -162,24 +162,24 @@ body {
 }
 
 .works-link {
-    max-width: 233px;
+	max-width: 233px;
 }
 
 .books-link {
-    position: relative;
-    display: inline-block;
-    
-    margin-right: 1% !important;
-    margin-left: 1% !important;
-    min-width: 48%;
-    max-width: 233px;
+	position: relative;
+	display: inline-block;
+	
+	margin-right: 1% !important;
+	margin-left: 1% !important;
+	min-width: 48%;
+	max-width: 233px;
 }
 
 .numpad {
 	margin: 0 auto;
-    max-width: 377px;
-    
-    text-align: center;
+	max-width: 377px;
+	
+	text-align: center;
 }
 
 .numpad-display {
@@ -195,15 +195,15 @@ body {
 }
 
 .numpad-number {
-    position: relative;
-    display: inline-block;
-    
-    padding: 5px;
-    margin-left: 1% !important;
-    margin-right: 1% !important;
-    width: 31%;
-    
-    font-size: 20px;
+	position: relative;
+	display: inline-block;
+	
+	padding: 5px;
+	margin-left: 1% !important;
+	margin-right: 1% !important;
+	width: 31%;
+	
+	font-size: 20px;
 }
 
 .numpad-submit, .numpad-clear {
@@ -270,8 +270,8 @@ body {
 
 .scripture-text {
 	webkit-user-select: none;  /* Chrome all / Safari all */
-	-moz-user-select: none;     /* Firefox all */
-	-ms-user-select: none;      /* IE 10+ */
+	-moz-user-select: none;	 /* Firefox all */
+	-ms-user-select: none;	  /* IE 10+ */
 	-o-user-select: none;
 	user-select: none;
 }
@@ -386,8 +386,8 @@ body {
 	background-color: #eee;
 	
 	webkit-user-select: text!important;  /* Chrome all / Safari all */
-	-moz-user-select: text !important;     /* Firefox all */
-	-ms-user-select: text !important;      /* IE 10+ */
+	-moz-user-select: text !important;	 /* Firefox all */
+	-ms-user-select: text !important;	  /* IE 10+ */
 	-o-user-select: text !important;
 	user-select: text !important;
 }
