@@ -1,7 +1,7 @@
 .button {
 	display: block;
 	
-	margin: 0 auto 3%;
+	margin: 0 auto 2%;
 	border: solid #aaa 1px;
 	padding: 5px 0;
 	width: 62%;
@@ -10,7 +10,7 @@
 	color: #000;
 	text-align: center;
 	font-family: "Oswald";
-	font-size: 17px;
+	font-size: 18px;
 	
 	-webkit-transition: all .25s;
 	transition: all .25s;
@@ -24,7 +24,7 @@
 .book-button {
 	display: inline-block;
 	
-	margin-left: 3%;
+	margin-left: 2%;
 	/*margin-right: 2%;*/
-	width: 45.5%;
+	width: 47%;
 }
