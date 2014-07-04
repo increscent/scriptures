@@ -21,9 +21,11 @@ scripturesApp.factory('indexFactory', function () {
 
 .factory('numpadFactory', function () {
 	var factory = {};
+	factory.numpadRange = ['1','2','3','4','5','6','7','8','9'];
 	factory.getNumpad = function () {
 		var element = '<div class="numpad">';
 		element += '</div>';
 	};
+	factory.clickNumb
 	return factory;
 });

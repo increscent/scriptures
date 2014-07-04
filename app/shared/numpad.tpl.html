@@ -1,16 +1,16 @@
 <div>
-	<div class="numpad">
-		<div class="numpad-control numpad-clear"><span class="glyphicon glyphicon-remove text-danger"></span></div>
-		<div class="numpad-display" value="">1 chapter</div>
-		<div class="numpad-control numpad-submit"><span class="glyphicon glyphicon-ok text-success"></span></div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
-		<div class="link numpad-control numpad-number" number="1">1</div>
+	<div class="numpad row">
+		<input type="text" class="numpad-input col-xs-12" placeholder="{{ numpad.placeholder }}" ng-model="numpad.value">
+		<!--<div class="numpad-control numpad-clear"><span class="glyphicon glyphicon-remove text-danger"></span></div>-->
+		<!--<div class="numpad-display" value="">1 chapter</div>-->
+		<!--<div class="numpad-control numpad-submit"><span class="glyphicon glyphicon-ok text-success"></span></div>-->
+		<div ng-repeat="n in numpad.numpadRange" class="numpad-button col-xs-4" ng-click="numpad.click(n)">{{ n }}</div>
+		<div class="numpad-button col-xs-4" ng-click="numpad.click('clear')">
+			<span class="glyphicon glyphicon-remove text-danger"></span>
+		</div>
+		<div class="numpad-button col-xs-4" ng-click="numpad.click(0)">0</div>
+		<div class="numpad-button col-xs-4" ng-click="numpad.click('submit')">
+			<span class="glyphicon glyphicon-ok text-success"></span>
+		</div>
 	</div>
 </div>
