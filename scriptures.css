@@ -35,19 +35,21 @@ body {
 }
 
 #page {
-	margin: 0;
-	padding-bottom: 0;
-	width: 100%;
-}
-
-#content {
 	position: relative;
-	
 	margin: 65px auto;
-	padding: 0;
+	padding-bottom: 0;
 	width: 100%;
 	max-width: 987px;
 }
+
+/*#content {*/
+/*	position: relative;*/
+	
+/*	margin: 65px auto;*/
+/*	padding: 0;*/
+/*	width: 100%;*/
+/*	max-width: 987px;*/
+/*}*/
 
 .nav-bar {
 	position: fixed;

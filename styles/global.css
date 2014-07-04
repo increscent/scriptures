@@ -1,0 +1,45 @@
+html {
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+@-ms-viewport {
+	width: device-width;
+	max-width: device-width;
+	min-width: device-width;
+	zoom: 1.0;
+	max-zoom: 1.0;
+	min-zoom: 1.0;
+	user-zoom: fixed;
+	orientation: auto;
+}
+@viewport {
+	width: device-width;
+	max-width: device-width;
+	min-width: device-width;
+	zoom: 1.0;
+	max-zoom: 1.0;
+	min-zoom: 1.0;
+	user-zoom: fixed;
+	orientation: auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	background-color: #fff;
+	color: #000;
+	line-height: 1.25;
+}
+
+#page {
+	position: relative;
+	
+	margin: 55px auto;
+	padding-bottom: 0;
+	width: 100%;
+	max-width: 987px;
+	
+	background-color: #fff;
+}

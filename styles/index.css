@@ -1,0 +1,30 @@
+.button {
+	display: block;
+	
+	margin: 0 auto 3%;
+	border: solid #aaa 1px;
+	padding: 5px 0;
+	width: 62%;
+	max-width: 277px;
+	
+	color: #000;
+	text-align: center;
+	font-family: "Oswald";
+	font-size: 17px;
+	
+	-webkit-transition: all .25s;
+	transition: all .25s;
+}
+
+.button:hover {
+	border-color: #fff;
+	cursor: pointer;
+}
+
+.book-button {
+	display: inline-block;
+	
+	margin-left: 3%;
+	/*margin-right: 2%;*/
+	width: 45.5%;
+}

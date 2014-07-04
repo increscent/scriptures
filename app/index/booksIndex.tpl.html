@@ -1,5 +1,7 @@
 <div id="index">
 	<div id="books">
-		<div class="books-link link" ng-repeat="key in notSorted(books)" ng-init="book = books[key]" ng-click="goToChapters(key)">{{ book.name }}</div>
+		<div class="button book-button" ng-repeat="key in notSorted(books)" ng-init="book = books[key]" ng-click="goToChapters(key)">
+			{{ book.name }}
+		</div>
 	</div>
 </div>

@@ -7,16 +7,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>scriptures</title>
 	
-	<link type="text/css" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+	<!-- global stylesheets -->
+	<link rel="stylesheet" href="/sources/bootstrap/bootstrap.min.css" />
 	<link href='http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/scriptures.css" />
-	<link rel="icon" type="image/png" href="/images/favicon.png" />
-	
-	<!-- angular cdn -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>
-	<!-- jquery cdn -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+	<!-- app stylesheets -->
+	<link rel="stylesheet" href="/styles/global.css" />
+	<link rel="stylesheet" href="/styles/index.css" />
 </head>
 
 <body>
@@ -51,7 +48,10 @@
 	
 	<!-- index file -->
 	<script src="/index.js"></script>
-	<!-- app files -->
+	<!-- global sources -->
+	<script src="/sources/angular/angular.min.js"></script>
+	<script src="/sources/angular/angular-route.min.js"></script>
+	<!-- app sources -->
 	<script src="/app/app.js"></script>
 	<script src="/app/factories.js"></script>
 	<script src="/app/index/worksIndex.js"></script>
