@@ -12,6 +12,7 @@ scripturesApp.config(function ($routeProvider) {
 	$scope.chapters = indexFactory.getChapters(work_abbr, book_abbr);
 	
 	$scope.numpad = numpadFactory;
+	$scope.numpad.show = $scope.chapters > 1;
 	//placeholder text
 	$scope.numpad.placeholder = '(' + $scope.chapters + ' chapters)';
 	$scope.numpad.value = '';
