@@ -15,9 +15,12 @@
 		<div class="chapter-summary" ng-show="moreSummary">
 			{{ moreSummary }}
 		</div>
-		<span class="chapter-verse" ng-repeat="(key, value) in verses">
-			<span class="verse-number">{{ key + 1 }}</span>
-			{{ value }}&nbsp;
+		<span class="chapter-verse" ng-repeat="(key, value) in verses track by $index">
+			<span class="verse-number" ng-show="!noVerseNumbers">{{ key + 1 }}</span>
+			{{ value }}
+			<br ng-show="noVerseNumbers"/>
+			<br ng-show="noVerseNumbers"/>
+			&nbsp;
 		</span>
 	</div>
 </div>

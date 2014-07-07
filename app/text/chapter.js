@@ -12,12 +12,14 @@ scripturesApp.config(function ($routeProvider) {
 	var chapter = $routeParams.chapter;
 	
 	textFactory.getChapter(work_abbr, book_abbr, chapter, function (data) {
+		console.log(data);
 		$scope.chapter = "Chapter " + chapter;
 		$scope.name = data.book_name;
 		$scope.extendedSummary = data.extended_summary;
 		$scope.summary = data.summary;
 		$scope.moreSummary = data.more_summary;
 		$scope.verses = data.verses;
+		$scope.noVerseNumbers = data.no_verse_numbers;
 		
 		$scope.$apply();
 	});
