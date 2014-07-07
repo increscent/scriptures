@@ -26,6 +26,40 @@ scripturesApp.factory('indexFactory', function () {
 		var element = '<div class="numpad">';
 		element += '</div>';
 	};
-	factory.clickNumb
+	return factory;
+})
+
+.factory('textFactory', function ($http) {
+	var factory = {};
+	factory.loadBook = function (work, book, callback) {
+		if (localStorage[work + book]) {
+			if (typeof callback === 'function') {
+				return callback(JSON.parse(localStorage[work + book]));
+			}
+		} else {
+			$http.get('/' + work + '/' + book + '/' + book).
+				success(function (data, status) {
+					localStorage[work + book] = JSON.stringify(data);
+					if (typeof callback === 'function') {
+						return callback(JSON.parse(localStorage[work + book]));
+					}
+				});
+		}
+	};
+	factory.getBook = function (work, book, callback) {
+		factory.loadBook(work, book, function (data) {
+			return callback(data);
+		});
+	};
+	factory.getChapter = function (work, book, chapter, callback) {
+		if (localStorage[work + book]) {
+			return callback(JSON.parse(localStorage[work + book])[chapter.toString()]);
+		} else {
+			$http.get('/' + work + '/' + book + '/' + book + chapter).
+				success(function (data, status) {
+					return callback(data);
+				});
+		}
+	};
 	return factory;
 });

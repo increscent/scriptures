@@ -1,0 +1,23 @@
+<div id="chapter">
+	<div class="book-title">
+		{{ name }}
+	</div>
+	<div class="chapter-title">
+		{{ chapter }}
+	</div>
+	<div class="chapter-wrapper">
+		<div class="chapter-summary" ng-show="extendedSummary">
+			{{ extendedSummary }}
+		</div>
+		<div class="chapter-summary" ng-show="summary">
+			{{ summary }}
+		</div>
+		<div class="chapter-summary" ng-show="moreSummary">
+			{{ moreSummary }}
+		</div>
+		<span class="chapter-verse" ng-repeat="(key, value) in verses">
+			<span class="verse-number">{{ key + 1 }}</span>
+			{{ value }}&nbsp;
+		</span>
+	</div>
+</div>

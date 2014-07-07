@@ -124,7 +124,7 @@ def save_book(work_abbr, book_abbr, book_index_list):
 def parse_chapter(chapter_contents):
 	chapter = {}
 	chapter['book_name'] = chapter_contents.h1.text
-	if chapter_contents.h2 and chapter_contents.h2.find('SECTION') != -1:
+	if chapter_contents.h2 and chapter_contents.h2.text.find('SECTION') != -1:
 		chapter['book_name'] = 'Section'
 	# extended summary
 	if chapter_contents.h2 and chapter_contents.h2.findNext('h2'):
