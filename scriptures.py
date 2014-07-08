@@ -144,6 +144,7 @@ def parse_chapter(chapter_contents):
 	chapter['verses'] = []
 	# first verse
 	verse = parse_verse(chapter_contents.p)
+	chapter['verses'].append(verse);
 	# all verses
 	for element in chapter_contents.p.findNextSiblings():
 		verse = parse_verse(element)
