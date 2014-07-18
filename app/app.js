@@ -5,4 +5,5 @@ scripturesApp.config(function ($routeProvider, $locationProvider) {
 		.otherwise({redirectTo: '/works'});
 	
 	$locationProvider.html5Mode(true);
+	$locationProvider.hashPrefix('!');
 });
