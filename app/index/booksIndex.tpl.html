@@ -1,6 +1,6 @@
 <div id="index">
 	<div id="books">
-		<div class="button book-button" ng-repeat="key in notSorted(books)" ng-init="book = books[key]" ng-click="goToChapters(key)">
+		<div class="button book-button" ng-repeat="key in notSorted(books)" ng-init="book = books[key]" ng-click="goToChapters(key)" stop-propagation>
 			{{ book.name }}
 		</div>
 	</div>
