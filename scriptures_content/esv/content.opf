@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+		<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:opf="http://www.idpf.org/2007/opf">
+				<dc:title>ESV Bible</dc:title>
+				<dc:language>en-us</dc:language>
+				<dc:identifier id="BookId">9781433536144-2012-05</dc:identifier>
+				<dc:publisher>Crossway</dc:publisher>
+				<dc:subject>Spiritual &amp; Religion</dc:subject>
+				<dc:creator>Crossway</dc:creator>
+				<dc:description>The &lt;em&gt;ESV Thinline Bible&lt;/em&gt; the ESV Bible text without cross-references.</dc:description>
+				<dc:date>2012-03-01</dc:date>
+       			<meta name="cover" content="cover-image.jpg"/>
+		</metadata>
+		<manifest>
+			<!-- HTML FILES -->
+			<item id="a000.front-cover" media-type="application/xhtml+xml" href="Text/a000.front-cover.html"/>
+			<item id="a02.resources" media-type="application/xhtml+xml" href="Text/a02.resources.html"/>
+			<item id="a01.resources" media-type="application/xhtml+xml" href="Text/a01.resources.html"/>
+			<item id="a00.resources" media-type="application/xhtml+xml" href="Text/a00.resources.html"/>
+			<item id="a03.resources" media-type="application/xhtml+xml" href="Text/a03.resources.html"/>
+			<item id="a04.resources" media-type="application/xhtml+xml" href="Text/a04.resources.html"/>
+			<item id="a05.resources" media-type="application/xhtml+xml" href="Text/a05.resources.html"/>
+			<item id="b01.00.Genesis.main" media-type="application/xhtml+xml" href="Text/b01.00.Genesis.main.html"/>
+			<item id="b01.00.Genesis.text" media-type="application/xhtml+xml" href="Text/b01.00.Genesis.text.html"/>
+			<item id="b01.01.Genesis.text" media-type="application/xhtml+xml" href="Text/b01.01.Genesis.text.html"/>
+			<item id="b01.00.Genesis.footnotes" media-type="application/xhtml+xml" href="Text/b01.00.Genesis.footnotes.html"/>
+			<item id="b02.00.Exodus.main" media-type="application/xhtml+xml" href="Text/b02.00.Exodus.main.html"/>
+			<item id="b02.00.Exodus.text" media-type="application/xhtml+xml" href="Text/b02.00.Exodus.text.html"/>
+			<item id="b02.01.Exodus.text" media-type="application/xhtml+xml" href="Text/b02.01.Exodus.text.html"/>
+			<item id="b02.00.Exodus.footnotes" media-type="application/xhtml+xml" href="Text/b02.00.Exodus.footnotes.html"/>
+			<item id="b03.00.Leviticus.main" media-type="application/xhtml+xml" href="Text/b03.00.Leviticus.main.html"/>
+			<item id="b03.00.Leviticus.text" media-type="application/xhtml+xml" href="Text/b03.00.Leviticus.text.html"/>
+			<item id="b03.01.Leviticus.text" media-type="application/xhtml+xml" href="Text/b03.01.Leviticus.text.html"/>
+			<item id="b03.00.Leviticus.footnotes" media-type="application/xhtml+xml" href="Text/b03.00.Leviticus.footnotes.html"/>
+			<item id="b04.00.Numbers.main" media-type="application/xhtml+xml" href="Text/b04.00.Numbers.main.html"/>
+			<item id="b04.00.Numbers.text" media-type="application/xhtml+xml" href="Text/b04.00.Numbers.text.html"/>
+			<item id="b04.01.Numbers.text" media-type="application/xhtml+xml" href="Text/b04.01.Numbers.text.html"/>
+			<item id="b04.00.Numbers.footnotes" media-type="application/xhtml+xml" href="Text/b04.00.Numbers.footnotes.html"/>
+			<item id="b05.00.Deuteronomy.main" media-type="application/xhtml+xml" href="Text/b05.00.Deuteronomy.main.html"/>
+			<item id="b05.00.Deuteronomy.text" media-type="application/xhtml+xml" href="Text/b05.00.Deuteronomy.text.html"/>
+			<item id="b05.01.Deuteronomy.text" media-type="application/xhtml+xml" href="Text/b05.01.Deuteronomy.text.html"/>
+			<item id="b05.00.Deuteronomy.footnotes" media-type="application/xhtml+xml" href="Text/b05.00.Deuteronomy.footnotes.html"/>
+			<item id="b06.00.Joshua.main" media-type="application/xhtml+xml" href="Text/b06.00.Joshua.main.html"/>
+			<item id="b06.00.Joshua.text" media-type="application/xhtml+xml" href="Text/b06.00.Joshua.text.html"/>
+			<item id="b06.00.Joshua.footnotes" media-type="application/xhtml+xml" href="Text/b06.00.Joshua.footnotes.html"/>
+			<item id="b07.00.Judges.main" media-type="application/xhtml+xml" href="Text/b07.00.Judges.main.html"/>
+			<item id="b07.00.Judges.text" media-type="application/xhtml+xml" href="Text/b07.00.Judges.text.html"/>
+			<item id="b07.00.Judges.footnotes" media-type="application/xhtml+xml" href="Text/b07.00.Judges.footnotes.html"/>
+			<item id="b08.00.Ruth.main" media-type="application/xhtml+xml" href="Text/b08.00.Ruth.main.html"/>
+			<item id="b08.00.Ruth.text" media-type="application/xhtml+xml" href="Text/b08.00.Ruth.text.html"/>
+			<item id="b08.00.Ruth.footnotes" media-type="application/xhtml+xml" href="Text/b08.00.Ruth.footnotes.html"/>
+			<item id="b09.00.1-Samuel.main" media-type="application/xhtml+xml" href="Text/b09.00.1-Samuel.main.html"/>
+			<item id="b09.00.1-Samuel.text" media-type="application/xhtml+xml" href="Text/b09.00.1-Samuel.text.html"/>
+			<item id="b09.01.1-Samuel.text" media-type="application/xhtml+xml" href="Text/b09.01.1-Samuel.text.html"/>
+			<item id="b09.00.1-Samuel.footnotes" media-type="application/xhtml+xml" href="Text/b09.00.1-Samuel.footnotes.html"/>
+			<item id="b10.00.2-Samuel.main" media-type="application/xhtml+xml" href="Text/b10.00.2-Samuel.main.html"/>
+			<item id="b10.00.2-Samuel.text" media-type="application/xhtml+xml" href="Text/b10.00.2-Samuel.text.html"/>
+			<item id="b10.00.2-Samuel.footnotes" media-type="application/xhtml+xml" href="Text/b10.00.2-Samuel.footnotes.html"/>
+			<item id="b11.00.1-Kings.main" media-type="application/xhtml+xml" href="Text/b11.00.1-Kings.main.html"/>
+			<item id="b11.00.1-Kings.text" media-type="application/xhtml+xml" href="Text/b11.00.1-Kings.text.html"/>
+			<item id="b11.01.1-Kings.text" media-type="application/xhtml+xml" href="Text/b11.01.1-Kings.text.html"/>
+			<item id="b11.00.1-Kings.footnotes" media-type="application/xhtml+xml" href="Text/b11.00.1-Kings.footnotes.html"/>
+			<item id="b12.00.2-Kings.main" media-type="application/xhtml+xml" href="Text/b12.00.2-Kings.main.html"/>
+			<item id="b12.00.2-Kings.text" media-type="application/xhtml+xml" href="Text/b12.00.2-Kings.text.html"/>
+			<item id="b12.01.2-Kings.text" media-type="application/xhtml+xml" href="Text/b12.01.2-Kings.text.html"/>
+			<item id="b12.00.2-Kings.footnotes" media-type="application/xhtml+xml" href="Text/b12.00.2-Kings.footnotes.html"/>
+			<item id="b13.00.1-Chronicles.main" media-type="application/xhtml+xml" href="Text/b13.00.1-Chronicles.main.html"/>
+			<item id="b13.00.1-Chronicles.text" media-type="application/xhtml+xml" href="Text/b13.00.1-Chronicles.text.html"/>
+			<item id="b13.01.1-Chronicles.text" media-type="application/xhtml+xml" href="Text/b13.01.1-Chronicles.text.html"/>
+			<item id="b13.00.1-Chronicles.footnotes" media-type="application/xhtml+xml" href="Text/b13.00.1-Chronicles.footnotes.html"/>
+			<item id="b14.00.2-Chronicles.main" media-type="application/xhtml+xml" href="Text/b14.00.2-Chronicles.main.html"/>
+			<item id="b14.00.2-Chronicles.text" media-type="application/xhtml+xml" href="Text/b14.00.2-Chronicles.text.html"/>
+			<item id="b14.01.2-Chronicles.text" media-type="application/xhtml+xml" href="Text/b14.01.2-Chronicles.text.html"/>
+			<item id="b14.00.2-Chronicles.footnotes" media-type="application/xhtml+xml" href="Text/b14.00.2-Chronicles.footnotes.html"/>
+			<item id="b15.00.Ezra.main" media-type="application/xhtml+xml" href="Text/b15.00.Ezra.main.html"/>
+			<item id="b15.00.Ezra.text" media-type="application/xhtml+xml" href="Text/b15.00.Ezra.text.html"/>
+			<item id="b15.00.Ezra.footnotes" media-type="application/xhtml+xml" href="Text/b15.00.Ezra.footnotes.html"/>
+			<item id="b16.00.Nehemiah.main" media-type="application/xhtml+xml" href="Text/b16.00.Nehemiah.main.html"/>
+			<item id="b16.00.Nehemiah.text" media-type="application/xhtml+xml" href="Text/b16.00.Nehemiah.text.html"/>
+			<item id="b16.00.Nehemiah.footnotes" media-type="application/xhtml+xml" href="Text/b16.00.Nehemiah.footnotes.html"/>
+			<item id="b17.00.Esther.main" media-type="application/xhtml+xml" href="Text/b17.00.Esther.main.html"/>
+			<item id="b17.00.Esther.text" media-type="application/xhtml+xml" href="Text/b17.00.Esther.text.html"/>
+			<item id="b17.00.Esther.footnotes" media-type="application/xhtml+xml" href="Text/b17.00.Esther.footnotes.html"/>
+			<item id="b18.00.Job.main" media-type="application/xhtml+xml" href="Text/b18.00.Job.main.html"/>
+			<item id="b18.00.Job.text" media-type="application/xhtml+xml" href="Text/b18.00.Job.text.html"/>
+			<item id="b18.01.Job.text" media-type="application/xhtml+xml" href="Text/b18.01.Job.text.html"/>
+			<item id="b18.00.Job.footnotes" media-type="application/xhtml+xml" href="Text/b18.00.Job.footnotes.html"/>
+			<item id="b19.00.Psalm.main" media-type="application/xhtml+xml" href="Text/b19.00.Psalm.main.html"/>
+			<item id="b19.00.Psalm.text" media-type="application/xhtml+xml" href="Text/b19.00.Psalm.text.html"/>
+			<item id="b19.01.Psalm.text" media-type="application/xhtml+xml" href="Text/b19.01.Psalm.text.html"/>
+			<item id="b19.02.Psalm.text" media-type="application/xhtml+xml" href="Text/b19.02.Psalm.text.html"/>
+			<item id="b19.03.Psalm.text" media-type="application/xhtml+xml" href="Text/b19.03.Psalm.text.html"/>
+			<item id="b19.04.Psalm.text" media-type="application/xhtml+xml" href="Text/b19.04.Psalm.text.html"/>
+			<item id="b19.05.Psalm.text" media-type="application/xhtml+xml" href="Text/b19.05.Psalm.text.html"/>
+			<item id="b19.06.Psalm.text" media-type="application/xhtml+xml" href="Text/b19.06.Psalm.text.html"/>
+			<item id="b19.00.Psalm.footnotes" media-type="application/xhtml+xml" href="Text/b19.00.Psalm.footnotes.html"/>
+			<item id="b20.00.Proverbs.main" media-type="application/xhtml+xml" href="Text/b20.00.Proverbs.main.html"/>
+			<item id="b20.00.Proverbs.text" media-type="application/xhtml+xml" href="Text/b20.00.Proverbs.text.html"/>
+			<item id="b20.01.Proverbs.text" media-type="application/xhtml+xml" href="Text/b20.01.Proverbs.text.html"/>
+			<item id="b20.00.Proverbs.footnotes" media-type="application/xhtml+xml" href="Text/b20.00.Proverbs.footnotes.html"/>
+			<item id="b21.00.Ecclesiastes.main" media-type="application/xhtml+xml" href="Text/b21.00.Ecclesiastes.main.html"/>
+			<item id="b21.00.Ecclesiastes.text" media-type="application/xhtml+xml" href="Text/b21.00.Ecclesiastes.text.html"/>
+			<item id="b21.00.Ecclesiastes.footnotes" media-type="application/xhtml+xml" href="Text/b21.00.Ecclesiastes.footnotes.html"/>
+			<item id="b22.00.Song-of-Solomon.main" media-type="application/xhtml+xml" href="Text/b22.00.Song-of-Solomon.main.html"/>
+			<item id="b22.00.Song-of-Solomon.text" media-type="application/xhtml+xml" href="Text/b22.00.Song-of-Solomon.text.html"/>
+			<item id="b22.00.Song-of-Solomon.footnotes" media-type="application/xhtml+xml" href="Text/b22.00.Song-of-Solomon.footnotes.html"/>
+			<item id="b23.00.Isaiah.main" media-type="application/xhtml+xml" href="Text/b23.00.Isaiah.main.html"/>
+			<item id="b23.00.Isaiah.text" media-type="application/xhtml+xml" href="Text/b23.00.Isaiah.text.html"/>
+			<item id="b23.01.Isaiah.text" media-type="application/xhtml+xml" href="Text/b23.01.Isaiah.text.html"/>
+			<item id="b23.02.Isaiah.text" media-type="application/xhtml+xml" href="Text/b23.02.Isaiah.text.html"/>
+			<item id="b23.03.Isaiah.text" media-type="application/xhtml+xml" href="Text/b23.03.Isaiah.text.html"/>
+			<item id="b23.00.Isaiah.footnotes" media-type="application/xhtml+xml" href="Text/b23.00.Isaiah.footnotes.html"/>
+			<item id="b24.00.Jeremiah.main" media-type="application/xhtml+xml" href="Text/b24.00.Jeremiah.main.html"/>
+			<item id="b24.00.Jeremiah.text" media-type="application/xhtml+xml" href="Text/b24.00.Jeremiah.text.html"/>
+			<item id="b24.01.Jeremiah.text" media-type="application/xhtml+xml" href="Text/b24.01.Jeremiah.text.html"/>
+			<item id="b24.02.Jeremiah.text" media-type="application/xhtml+xml" href="Text/b24.02.Jeremiah.text.html"/>
+			<item id="b24.03.Jeremiah.text" media-type="application/xhtml+xml" href="Text/b24.03.Jeremiah.text.html"/>
+			<item id="b24.00.Jeremiah.footnotes" media-type="application/xhtml+xml" href="Text/b24.00.Jeremiah.footnotes.html"/>
+			<item id="b25.00.Lamentations.main" media-type="application/xhtml+xml" href="Text/b25.00.Lamentations.main.html"/>
+			<item id="b25.00.Lamentations.text" media-type="application/xhtml+xml" href="Text/b25.00.Lamentations.text.html"/>
+			<item id="b25.00.Lamentations.footnotes" media-type="application/xhtml+xml" href="Text/b25.00.Lamentations.footnotes.html"/>
+			<item id="b26.00.Ezekiel.main" media-type="application/xhtml+xml" href="Text/b26.00.Ezekiel.main.html"/>
+			<item id="b26.00.Ezekiel.text" media-type="application/xhtml+xml" href="Text/b26.00.Ezekiel.text.html"/>
+			<item id="b26.01.Ezekiel.text" media-type="application/xhtml+xml" href="Text/b26.01.Ezekiel.text.html"/>
+			<item id="b26.02.Ezekiel.text" media-type="application/xhtml+xml" href="Text/b26.02.Ezekiel.text.html"/>
+			<item id="b26.03.Ezekiel.text" media-type="application/xhtml+xml" href="Text/b26.03.Ezekiel.text.html"/>
+			<item id="b26.00.Ezekiel.footnotes" media-type="application/xhtml+xml" href="Text/b26.00.Ezekiel.footnotes.html"/>
+			<item id="b27.00.Daniel.main" media-type="application/xhtml+xml" href="Text/b27.00.Daniel.main.html"/>
+			<item id="b27.00.Daniel.text" media-type="application/xhtml+xml" href="Text/b27.00.Daniel.text.html"/>
+			<item id="b27.00.Daniel.footnotes" media-type="application/xhtml+xml" href="Text/b27.00.Daniel.footnotes.html"/>
+			<item id="b28.00.Hosea.main" media-type="application/xhtml+xml" href="Text/b28.00.Hosea.main.html"/>
+			<item id="b28.00.Hosea.text" media-type="application/xhtml+xml" href="Text/b28.00.Hosea.text.html"/>
+			<item id="b28.00.Hosea.footnotes" media-type="application/xhtml+xml" href="Text/b28.00.Hosea.footnotes.html"/>
+			<item id="b29.00.Joel.main" media-type="application/xhtml+xml" href="Text/b29.00.Joel.main.html"/>
+			<item id="b29.00.Joel.text" media-type="application/xhtml+xml" href="Text/b29.00.Joel.text.html"/>
+			<item id="b29.00.Joel.footnotes" media-type="application/xhtml+xml" href="Text/b29.00.Joel.footnotes.html"/>
+			<item id="b30.00.Amos.main" media-type="application/xhtml+xml" href="Text/b30.00.Amos.main.html"/>
+			<item id="b30.00.Amos.text" media-type="application/xhtml+xml" href="Text/b30.00.Amos.text.html"/>
+			<item id="b30.00.Amos.footnotes" media-type="application/xhtml+xml" href="Text/b30.00.Amos.footnotes.html"/>
+			<item id="b31.00.Obadiah.main" media-type="application/xhtml+xml" href="Text/b31.00.Obadiah.main.html"/>
+			<item id="b31.00.Obadiah.text" media-type="application/xhtml+xml" href="Text/b31.00.Obadiah.text.html"/>
+			<item id="b31.00.Obadiah.footnotes" media-type="application/xhtml+xml" href="Text/b31.00.Obadiah.footnotes.html"/>
+			<item id="b32.00.Jonah.main" media-type="application/xhtml+xml" href="Text/b32.00.Jonah.main.html"/>
+			<item id="b32.00.Jonah.text" media-type="application/xhtml+xml" href="Text/b32.00.Jonah.text.html"/>
+			<item id="b32.00.Jonah.footnotes" media-type="application/xhtml+xml" href="Text/b32.00.Jonah.footnotes.html"/>
+			<item id="b33.00.Micah.main" media-type="application/xhtml+xml" href="Text/b33.00.Micah.main.html"/>
+			<item id="b33.00.Micah.text" media-type="application/xhtml+xml" href="Text/b33.00.Micah.text.html"/>
+			<item id="b33.00.Micah.footnotes" media-type="application/xhtml+xml" href="Text/b33.00.Micah.footnotes.html"/>
+			<item id="b34.00.Nahum.main" media-type="application/xhtml+xml" href="Text/b34.00.Nahum.main.html"/>
+			<item id="b34.00.Nahum.text" media-type="application/xhtml+xml" href="Text/b34.00.Nahum.text.html"/>
+			<item id="b34.00.Nahum.footnotes" media-type="application/xhtml+xml" href="Text/b34.00.Nahum.footnotes.html"/>
+			<item id="b35.00.Habakkuk.main" media-type="application/xhtml+xml" href="Text/b35.00.Habakkuk.main.html"/>
+			<item id="b35.00.Habakkuk.text" media-type="application/xhtml+xml" href="Text/b35.00.Habakkuk.text.html"/>
+			<item id="b35.00.Habakkuk.footnotes" media-type="application/xhtml+xml" href="Text/b35.00.Habakkuk.footnotes.html"/>
+			<item id="b36.00.Zephaniah.main" media-type="application/xhtml+xml" href="Text/b36.00.Zephaniah.main.html"/>
+			<item id="b36.00.Zephaniah.text" media-type="application/xhtml+xml" href="Text/b36.00.Zephaniah.text.html"/>
+			<item id="b36.00.Zephaniah.footnotes" media-type="application/xhtml+xml" href="Text/b36.00.Zephaniah.footnotes.html"/>
+			<item id="b37.00.Haggai.main" media-type="application/xhtml+xml" href="Text/b37.00.Haggai.main.html"/>
+			<item id="b37.00.Haggai.text" media-type="application/xhtml+xml" href="Text/b37.00.Haggai.text.html"/>
+			<item id="b37.00.Haggai.footnotes" media-type="application/xhtml+xml" href="Text/b37.00.Haggai.footnotes.html"/>
+			<item id="b38.00.Zechariah.main" media-type="application/xhtml+xml" href="Text/b38.00.Zechariah.main.html"/>
+			<item id="b38.00.Zechariah.text" media-type="application/xhtml+xml" href="Text/b38.00.Zechariah.text.html"/>
+			<item id="b38.00.Zechariah.footnotes" media-type="application/xhtml+xml" href="Text/b38.00.Zechariah.footnotes.html"/>
+			<item id="b39.00.Malachi.main" media-type="application/xhtml+xml" href="Text/b39.00.Malachi.main.html"/>
+			<item id="b39.00.Malachi.text" media-type="application/xhtml+xml" href="Text/b39.00.Malachi.text.html"/>
+			<item id="b39.00.Malachi.footnotes" media-type="application/xhtml+xml" href="Text/b39.00.Malachi.footnotes.html"/>
+			<item id="b40.00.Matthew.main" media-type="application/xhtml+xml" href="Text/b40.00.Matthew.main.html"/>
+			<item id="b40.00.Matthew.text" media-type="application/xhtml+xml" href="Text/b40.00.Matthew.text.html"/>
+			<item id="b40.01.Matthew.text" media-type="application/xhtml+xml" href="Text/b40.01.Matthew.text.html"/>
+			<item id="b40.00.Matthew.footnotes" media-type="application/xhtml+xml" href="Text/b40.00.Matthew.footnotes.html"/>
+			<item id="b41.00.Mark.main" media-type="application/xhtml+xml" href="Text/b41.00.Mark.main.html"/>
+			<item id="b41.00.Mark.text" media-type="application/xhtml+xml" href="Text/b41.00.Mark.text.html"/>
+			<item id="b41.00.Mark.footnotes" media-type="application/xhtml+xml" href="Text/b41.00.Mark.footnotes.html"/>
+			<item id="b42.00.Luke.main" media-type="application/xhtml+xml" href="Text/b42.00.Luke.main.html"/>
+			<item id="b42.00.Luke.text" media-type="application/xhtml+xml" href="Text/b42.00.Luke.text.html"/>
+			<item id="b42.01.Luke.text" media-type="application/xhtml+xml" href="Text/b42.01.Luke.text.html"/>
+			<item id="b42.00.Luke.footnotes" media-type="application/xhtml+xml" href="Text/b42.00.Luke.footnotes.html"/>
+			<item id="b43.00.John.main" media-type="application/xhtml+xml" href="Text/b43.00.John.main.html"/>
+			<item id="b43.00.John.text" media-type="application/xhtml+xml" href="Text/b43.00.John.text.html"/>
+			<item id="b43.01.John.text" media-type="application/xhtml+xml" href="Text/b43.01.John.text.html"/>
+			<item id="b43.00.John.footnotes" media-type="application/xhtml+xml" href="Text/b43.00.John.footnotes.html"/>
+			<item id="b44.00.Acts.main" media-type="application/xhtml+xml" href="Text/b44.00.Acts.main.html"/>
+			<item id="b44.00.Acts.text" media-type="application/xhtml+xml" href="Text/b44.00.Acts.text.html"/>
+			<item id="b44.01.Acts.text" media-type="application/xhtml+xml" href="Text/b44.01.Acts.text.html"/>
+			<item id="b44.00.Acts.footnotes" media-type="application/xhtml+xml" href="Text/b44.00.Acts.footnotes.html"/>
+			<item id="b45.00.Romans.main" media-type="application/xhtml+xml" href="Text/b45.00.Romans.main.html"/>
+			<item id="b45.00.Romans.text" media-type="application/xhtml+xml" href="Text/b45.00.Romans.text.html"/>
+			<item id="b45.00.Romans.footnotes" media-type="application/xhtml+xml" href="Text/b45.00.Romans.footnotes.html"/>
+			<item id="b46.00.1-Corinthians.main" media-type="application/xhtml+xml" href="Text/b46.00.1-Corinthians.main.html"/>
+			<item id="b46.00.1-Corinthians.text" media-type="application/xhtml+xml" href="Text/b46.00.1-Corinthians.text.html"/>
+			<item id="b46.00.1-Corinthians.footnotes" media-type="application/xhtml+xml" href="Text/b46.00.1-Corinthians.footnotes.html"/>
+			<item id="b47.00.2-Corinthians.main" media-type="application/xhtml+xml" href="Text/b47.00.2-Corinthians.main.html"/>
+			<item id="b47.00.2-Corinthians.text" media-type="application/xhtml+xml" href="Text/b47.00.2-Corinthians.text.html"/>
+			<item id="b47.00.2-Corinthians.footnotes" media-type="application/xhtml+xml" href="Text/b47.00.2-Corinthians.footnotes.html"/>
+			<item id="b48.00.Galatians.main" media-type="application/xhtml+xml" href="Text/b48.00.Galatians.main.html"/>
+			<item id="b48.00.Galatians.text" media-type="application/xhtml+xml" href="Text/b48.00.Galatians.text.html"/>
+			<item id="b48.00.Galatians.footnotes" media-type="application/xhtml+xml" href="Text/b48.00.Galatians.footnotes.html"/>
+			<item id="b49.00.Ephesians.main" media-type="application/xhtml+xml" href="Text/b49.00.Ephesians.main.html"/>
+			<item id="b49.00.Ephesians.text" media-type="application/xhtml+xml" href="Text/b49.00.Ephesians.text.html"/>
+			<item id="b49.00.Ephesians.footnotes" media-type="application/xhtml+xml" href="Text/b49.00.Ephesians.footnotes.html"/>
+			<item id="b50.00.Philippians.main" media-type="application/xhtml+xml" href="Text/b50.00.Philippians.main.html"/>
+			<item id="b50.00.Philippians.text" media-type="application/xhtml+xml" href="Text/b50.00.Philippians.text.html"/>
+			<item id="b50.00.Philippians.footnotes" media-type="application/xhtml+xml" href="Text/b50.00.Philippians.footnotes.html"/>
+			<item id="b51.00.Colossians.main" media-type="application/xhtml+xml" href="Text/b51.00.Colossians.main.html"/>
+			<item id="b51.00.Colossians.text" media-type="application/xhtml+xml" href="Text/b51.00.Colossians.text.html"/>
+			<item id="b51.00.Colossians.footnotes" media-type="application/xhtml+xml" href="Text/b51.00.Colossians.footnotes.html"/>
+			<item id="b52.00.1-Thessalonians.main" media-type="application/xhtml+xml" href="Text/b52.00.1-Thessalonians.main.html"/>
+			<item id="b52.00.1-Thessalonians.text" media-type="application/xhtml+xml" href="Text/b52.00.1-Thessalonians.text.html"/>
+			<item id="b52.00.1-Thessalonians.footnotes" media-type="application/xhtml+xml" href="Text/b52.00.1-Thessalonians.footnotes.html"/>
+			<item id="b53.00.2-Thessalonians.main" media-type="application/xhtml+xml" href="Text/b53.00.2-Thessalonians.main.html"/>
+			<item id="b53.00.2-Thessalonians.text" media-type="application/xhtml+xml" href="Text/b53.00.2-Thessalonians.text.html"/>
+			<item id="b53.00.2-Thessalonians.footnotes" media-type="application/xhtml+xml" href="Text/b53.00.2-Thessalonians.footnotes.html"/>
+			<item id="b54.00.1-Timothy.main" media-type="application/xhtml+xml" href="Text/b54.00.1-Timothy.main.html"/>
+			<item id="b54.00.1-Timothy.text" media-type="application/xhtml+xml" href="Text/b54.00.1-Timothy.text.html"/>
+			<item id="b54.00.1-Timothy.footnotes" media-type="application/xhtml+xml" href="Text/b54.00.1-Timothy.footnotes.html"/>
+			<item id="b55.00.2-Timothy.main" media-type="application/xhtml+xml" href="Text/b55.00.2-Timothy.main.html"/>
+			<item id="b55.00.2-Timothy.text" media-type="application/xhtml+xml" href="Text/b55.00.2-Timothy.text.html"/>
+			<item id="b55.00.2-Timothy.footnotes" media-type="application/xhtml+xml" href="Text/b55.00.2-Timothy.footnotes.html"/>
+			<item id="b56.00.Titus.main" media-type="application/xhtml+xml" href="Text/b56.00.Titus.main.html"/>
+			<item id="b56.00.Titus.text" media-type="application/xhtml+xml" href="Text/b56.00.Titus.text.html"/>
+			<item id="b56.00.Titus.footnotes" media-type="application/xhtml+xml" href="Text/b56.00.Titus.footnotes.html"/>
+			<item id="b57.00.Philemon.main" media-type="application/xhtml+xml" href="Text/b57.00.Philemon.main.html"/>
+			<item id="b57.00.Philemon.text" media-type="application/xhtml+xml" href="Text/b57.00.Philemon.text.html"/>
+			<item id="b57.00.Philemon.footnotes" media-type="application/xhtml+xml" href="Text/b57.00.Philemon.footnotes.html"/>
+			<item id="b58.00.Hebrews.main" media-type="application/xhtml+xml" href="Text/b58.00.Hebrews.main.html"/>
+			<item id="b58.00.Hebrews.text" media-type="application/xhtml+xml" href="Text/b58.00.Hebrews.text.html"/>
+			<item id="b58.00.Hebrews.footnotes" media-type="application/xhtml+xml" href="Text/b58.00.Hebrews.footnotes.html"/>
+			<item id="b59.00.James.main" media-type="application/xhtml+xml" href="Text/b59.00.James.main.html"/>
+			<item id="b59.00.James.text" media-type="application/xhtml+xml" href="Text/b59.00.James.text.html"/>
+			<item id="b59.00.James.footnotes" media-type="application/xhtml+xml" href="Text/b59.00.James.footnotes.html"/>
+			<item id="b60.00.1-Peter.main" media-type="application/xhtml+xml" href="Text/b60.00.1-Peter.main.html"/>
+			<item id="b60.00.1-Peter.text" media-type="application/xhtml+xml" href="Text/b60.00.1-Peter.text.html"/>
+			<item id="b60.00.1-Peter.footnotes" media-type="application/xhtml+xml" href="Text/b60.00.1-Peter.footnotes.html"/>
+			<item id="b61.00.2-Peter.main" media-type="application/xhtml+xml" href="Text/b61.00.2-Peter.main.html"/>
+			<item id="b61.00.2-Peter.text" media-type="application/xhtml+xml" href="Text/b61.00.2-Peter.text.html"/>
+			<item id="b61.00.2-Peter.footnotes" media-type="application/xhtml+xml" href="Text/b61.00.2-Peter.footnotes.html"/>
+			<item id="b62.00.1-John.main" media-type="application/xhtml+xml" href="Text/b62.00.1-John.main.html"/>
+			<item id="b62.00.1-John.text" media-type="application/xhtml+xml" href="Text/b62.00.1-John.text.html"/>
+			<item id="b62.00.1-John.footnotes" media-type="application/xhtml+xml" href="Text/b62.00.1-John.footnotes.html"/>
+			<item id="b63.00.2-John.main" media-type="application/xhtml+xml" href="Text/b63.00.2-John.main.html"/>
+			<item id="b63.00.2-John.text" media-type="application/xhtml+xml" href="Text/b63.00.2-John.text.html"/>
+			<item id="b63.00.2-John.footnotes" media-type="application/xhtml+xml" href="Text/b63.00.2-John.footnotes.html"/>
+			<item id="b64.00.3-John.main" media-type="application/xhtml+xml" href="Text/b64.00.3-John.main.html"/>
+			<item id="b64.00.3-John.text" media-type="application/xhtml+xml" href="Text/b64.00.3-John.text.html"/>
+			<item id="b64.00.3-John.footnotes" media-type="application/xhtml+xml" href="Text/b64.00.3-John.footnotes.html"/>
+			<item id="b65.00.Jude.main" media-type="application/xhtml+xml" href="Text/b65.00.Jude.main.html"/>
+			<item id="b65.00.Jude.text" media-type="application/xhtml+xml" href="Text/b65.00.Jude.text.html"/>
+			<item id="b65.00.Jude.footnotes" media-type="application/xhtml+xml" href="Text/b65.00.Jude.footnotes.html"/>
+			<item id="b66.00.Revelation.main" media-type="application/xhtml+xml" href="Text/b66.00.Revelation.main.html"/>
+			<item id="b66.00.Revelation.text" media-type="application/xhtml+xml" href="Text/b66.00.Revelation.text.html"/>
+			<item id="b66.00.Revelation.footnotes" media-type="application/xhtml+xml" href="Text/b66.00.Revelation.footnotes.html"/>
+			<item id="d06.resources" media-type="application/xhtml+xml" href="Text/d06.resources.html"/>
+			<item id="d07.resources" media-type="application/xhtml+xml" href="Text/d07.resources.html"/>
+			<item id="d08.resources" media-type="application/xhtml+xml" href="Text/d08.resources.html"/>
+			<item id="d09.resources" media-type="application/xhtml+xml" href="Text/d09.resources.html"/>
+			<item id="d10.resources" media-type="application/xhtml+xml" href="Text/d10.resources.html"/>
+			<item id="d11.resources" media-type="application/xhtml+xml" href="Text/d11.resources.html"/>
+			<item id="d12.resources" media-type="application/xhtml+xml" href="Text/d12.resources.html"/>
+			<item id="d13.resources" media-type="application/xhtml+xml" href="Text/d13.resources.html"/>
+			<item id="d14.resources" media-type="application/xhtml+xml" href="Text/d14.resources.html"/>
+			<item id="d15.resources" media-type="application/xhtml+xml" href="Text/d15.resources.html"/>
+			<item id="d16.resources" media-type="application/xhtml+xml" href="Text/d16.resources.html"/>
+			<item id="d17.resources" media-type="application/xhtml+xml" href="Text/d17.resources.html"/>
+			<item id="d18.resources" media-type="application/xhtml+xml" href="Text/d18.resources.html"/>
+			<item id="d19.resources" media-type="application/xhtml+xml" href="Text/d19.resources.html"/>
+			<item id="d20.resources" media-type="application/xhtml+xml" href="Text/d20.resources.html"/>
+			<item id="d21.resources" media-type="application/xhtml+xml" href="Text/d21.resources.html"/>
+			<item id="d22.resources" media-type="application/xhtml+xml" href="Text/d22.resources.html"/>
+			<item id="d23.resources" media-type="application/xhtml+xml" href="Text/d23.resources.html"/>
+			<item id="d24.resources" media-type="application/xhtml+xml" href="Text/d24.resources.html"/>
+			<item id="d25.resources" media-type="application/xhtml+xml" href="Text/d25.resources.html"/>
+			<item id="d26.resources" media-type="application/xhtml+xml" href="Text/d26.resources.html"/>
+			<item id="d27.resources" media-type="application/xhtml+xml" href="Text/d27.resources.html"/>
+			<item id="d28.resources" media-type="application/xhtml+xml" href="Text/d28.resources.html"/>
+			<item id="d29.resources" media-type="application/xhtml+xml" href="Text/d29.resources.html"/>
+			<item id="d30.resources" media-type="application/xhtml+xml" href="Text/d30.resources.html"/>
+			<item id="d31.resources" media-type="application/xhtml+xml" href="Text/d31.resources.html"/>
+			<item id="d32.resources" media-type="application/xhtml+xml" href="Text/d32.resources.html"/>
+			<item id="d33.resources" media-type="application/xhtml+xml" href="Text/d33.resources.html"/>
+			<item id="d34.resources" media-type="application/xhtml+xml" href="Text/d34.resources.html"/>
+			<item id="d35.resources" media-type="application/xhtml+xml" href="Text/d35.resources.html"/>
+			<item id="d36.resources" media-type="application/xhtml+xml" href="Text/d36.resources.html"/>
+			<item id="d37.resources" media-type="application/xhtml+xml" href="Text/d37.resources.html"/>
+			<item id="d38.resources" media-type="application/xhtml+xml" href="Text/d38.resources.html"/>
+			<item id="d39.resources" media-type="application/xhtml+xml" href="Text/d39.resources.html"/>
+			<item id="d40.resources" media-type="application/xhtml+xml" href="Text/d40.resources.html"/>
+			<item id="d41.resources" media-type="application/xhtml+xml" href="Text/d41.resources.html"/>
+			<item id="d42.resources" media-type="application/xhtml+xml" href="Text/d42.resources.html"/>
+			<item id="d43.resources" media-type="application/xhtml+xml" href="Text/d43.resources.html"/>
+			<item id="d44.resources" media-type="application/xhtml+xml" href="Text/d44.resources.html"/>
+			<!-- IMAGES -->
+			<item id="cover-image.jpg" media-type="image/jpeg" href="Images/cover-image.jpg"/>
+			<item id="map-back-01.jpg" media-type="image/jpeg" href="Images/map-back-01.jpg"/>
+			<item id="map-back-02.jpg" media-type="image/jpeg" href="Images/map-back-02.jpg"/>
+			<item id="map-back-03.jpg" media-type="image/jpeg" href="Images/map-back-03.jpg"/>
+			<item id="map-back-04.jpg" media-type="image/jpeg" href="Images/map-back-04.jpg"/>
+			<item id="map-back-05.jpg" media-type="image/jpeg" href="Images/map-back-05.jpg"/>
+			<item id="map-back-06.jpg" media-type="image/jpeg" href="Images/map-back-06.jpg"/>
+			<item id="map-back-07.jpg" media-type="image/jpeg" href="Images/map-back-07.jpg"/>
+			<item id="map-back-08.jpg" media-type="image/jpeg" href="Images/map-back-08.jpg"/>
+			<item id="map-back-09.jpg" media-type="image/jpeg" href="Images/map-back-09.jpg"/>
+			<item id="map-back-10.jpg" media-type="image/jpeg" href="Images/map-back-10.jpg"/>
+			<item id="map-back-11.jpg" media-type="image/jpeg" href="Images/map-back-11.jpg"/>
+			<item id="map-back-12.jpg" media-type="image/jpeg" href="Images/map-back-12.jpg"/>
+			<!-- TOC -->
+			<item id="toc" media-type="application/x-dtbncx+xml" href="toc-none.ncx"/>
+			<!-- Style Sheet -->
+			<item id="styles" media-type="text/css" href="Styles/styles.css"/>
+		</manifest>
+	
+		<spine toc="toc">
+			<itemref idref="a000.front-cover"/>
+			<itemref idref="a02.resources"/>
+			<itemref idref="a01.resources"/>
+			<itemref idref="a00.resources"/>
+			<itemref idref="a03.resources"/>
+			<itemref idref="a04.resources"/>
+			<itemref idref="a05.resources"/>
+			<itemref idref="b01.00.Genesis.main"/>
+			<itemref idref="b01.00.Genesis.text"/>
+			<itemref idref="b01.01.Genesis.text"/>
+			<itemref idref="b01.00.Genesis.footnotes"/>
+			<itemref idref="b02.00.Exodus.main"/>
+			<itemref idref="b02.00.Exodus.text"/>
+			<itemref idref="b02.01.Exodus.text"/>
+			<itemref idref="b02.00.Exodus.footnotes"/>
+			<itemref idref="b03.00.Leviticus.main"/>
+			<itemref idref="b03.00.Leviticus.text"/>
+			<itemref idref="b03.01.Leviticus.text"/>
+			<itemref idref="b03.00.Leviticus.footnotes"/>
+			<itemref idref="b04.00.Numbers.main"/>
+			<itemref idref="b04.00.Numbers.text"/>
+			<itemref idref="b04.01.Numbers.text"/>
+			<itemref idref="b04.00.Numbers.footnotes"/>
+			<itemref idref="b05.00.Deuteronomy.main"/>
+			<itemref idref="b05.00.Deuteronomy.text"/>
+			<itemref idref="b05.01.Deuteronomy.text"/>
+			<itemref idref="b05.00.Deuteronomy.footnotes"/>
+			<itemref idref="b06.00.Joshua.main"/>
+			<itemref idref="b06.00.Joshua.text"/>
+			<itemref idref="b06.00.Joshua.footnotes"/>
+			<itemref idref="b07.00.Judges.main"/>
+			<itemref idref="b07.00.Judges.text"/>
+			<itemref idref="b07.00.Judges.footnotes"/>
+			<itemref idref="b08.00.Ruth.main"/>
+			<itemref idref="b08.00.Ruth.text"/>
+			<itemref idref="b08.00.Ruth.footnotes"/>
+			<itemref idref="b09.00.1-Samuel.main"/>
+			<itemref idref="b09.00.1-Samuel.text"/>
+			<itemref idref="b09.01.1-Samuel.text"/>
+			<itemref idref="b09.00.1-Samuel.footnotes"/>
+			<itemref idref="b10.00.2-Samuel.main"/>
+			<itemref idref="b10.00.2-Samuel.text"/>
+			<itemref idref="b10.00.2-Samuel.footnotes"/>
+			<itemref idref="b11.00.1-Kings.main"/>
+			<itemref idref="b11.00.1-Kings.text"/>
+			<itemref idref="b11.01.1-Kings.text"/>
+			<itemref idref="b11.00.1-Kings.footnotes"/>
+			<itemref idref="b12.00.2-Kings.main"/>
+			<itemref idref="b12.00.2-Kings.text"/>
+			<itemref idref="b12.01.2-Kings.text"/>
+			<itemref idref="b12.00.2-Kings.footnotes"/>
+			<itemref idref="b13.00.1-Chronicles.main"/>
+			<itemref idref="b13.00.1-Chronicles.text"/>
+			<itemref idref="b13.01.1-Chronicles.text"/>
+			<itemref idref="b13.00.1-Chronicles.footnotes"/>
+			<itemref idref="b14.00.2-Chronicles.main"/>
+			<itemref idref="b14.00.2-Chronicles.text"/>
+			<itemref idref="b14.01.2-Chronicles.text"/>
+			<itemref idref="b14.00.2-Chronicles.footnotes"/>
+			<itemref idref="b15.00.Ezra.main"/>
+			<itemref idref="b15.00.Ezra.text"/>
+			<itemref idref="b15.00.Ezra.footnotes"/>
+			<itemref idref="b16.00.Nehemiah.main"/>
+			<itemref idref="b16.00.Nehemiah.text"/>
+			<itemref idref="b16.00.Nehemiah.footnotes"/>
+			<itemref idref="b17.00.Esther.main"/>
+			<itemref idref="b17.00.Esther.text"/>
+			<itemref idref="b17.00.Esther.footnotes"/>
+			<itemref idref="b18.00.Job.main"/>
+			<itemref idref="b18.00.Job.text"/>
+			<itemref idref="b18.01.Job.text"/>
+			<itemref idref="b18.00.Job.footnotes"/>
+			<itemref idref="b19.00.Psalm.main"/>
+			<itemref idref="b19.00.Psalm.text"/>
+			<itemref idref="b19.01.Psalm.text"/>
+			<itemref idref="b19.02.Psalm.text"/>
+			<itemref idref="b19.03.Psalm.text"/>
+			<itemref idref="b19.04.Psalm.text"/>
+			<itemref idref="b19.05.Psalm.text"/>
+			<itemref idref="b19.06.Psalm.text"/>
+			<itemref idref="b19.00.Psalm.footnotes"/>
+			<itemref idref="b20.00.Proverbs.main"/>
+			<itemref idref="b20.00.Proverbs.text"/>
+			<itemref idref="b20.01.Proverbs.text"/>
+			<itemref idref="b20.00.Proverbs.footnotes"/>
+			<itemref idref="b21.00.Ecclesiastes.main"/>
+			<itemref idref="b21.00.Ecclesiastes.text"/>
+			<itemref idref="b21.00.Ecclesiastes.footnotes"/>
+			<itemref idref="b22.00.Song-of-Solomon.main"/>
+			<itemref idref="b22.00.Song-of-Solomon.text"/>
+			<itemref idref="b22.00.Song-of-Solomon.footnotes"/>
+			<itemref idref="b23.00.Isaiah.main"/>
+			<itemref idref="b23.00.Isaiah.text"/>
+			<itemref idref="b23.01.Isaiah.text"/>
+			<itemref idref="b23.02.Isaiah.text"/>
+			<itemref idref="b23.03.Isaiah.text"/>
+			<itemref idref="b23.00.Isaiah.footnotes"/>
+			<itemref idref="b24.00.Jeremiah.main"/>
+			<itemref idref="b24.00.Jeremiah.text"/>
+			<itemref idref="b24.01.Jeremiah.text"/>
+			<itemref idref="b24.02.Jeremiah.text"/>
+			<itemref idref="b24.03.Jeremiah.text"/>
+			<itemref idref="b24.00.Jeremiah.footnotes"/>
+			<itemref idref="b25.00.Lamentations.main"/>
+			<itemref idref="b25.00.Lamentations.text"/>
+			<itemref idref="b25.00.Lamentations.footnotes"/>
+			<itemref idref="b26.00.Ezekiel.main"/>
+			<itemref idref="b26.00.Ezekiel.text"/>
+			<itemref idref="b26.01.Ezekiel.text"/>
+			<itemref idref="b26.02.Ezekiel.text"/>
+			<itemref idref="b26.03.Ezekiel.text"/>
+			<itemref idref="b26.00.Ezekiel.footnotes"/>
+			<itemref idref="b27.00.Daniel.main"/>
+			<itemref idref="b27.00.Daniel.text"/>
+			<itemref idref="b27.00.Daniel.footnotes"/>
+			<itemref idref="b28.00.Hosea.main"/>
+			<itemref idref="b28.00.Hosea.text"/>
+			<itemref idref="b28.00.Hosea.footnotes"/>
+			<itemref idref="b29.00.Joel.main"/>
+			<itemref idref="b29.00.Joel.text"/>
+			<itemref idref="b29.00.Joel.footnotes"/>
+			<itemref idref="b30.00.Amos.main"/>
+			<itemref idref="b30.00.Amos.text"/>
+			<itemref idref="b30.00.Amos.footnotes"/>
+			<itemref idref="b31.00.Obadiah.main"/>
+			<itemref idref="b31.00.Obadiah.text"/>
+			<itemref idref="b31.00.Obadiah.footnotes"/>
+			<itemref idref="b32.00.Jonah.main"/>
+			<itemref idref="b32.00.Jonah.text"/>
+			<itemref idref="b32.00.Jonah.footnotes"/>
+			<itemref idref="b33.00.Micah.main"/>
+			<itemref idref="b33.00.Micah.text"/>
+			<itemref idref="b33.00.Micah.footnotes"/>
+			<itemref idref="b34.00.Nahum.main"/>
+			<itemref idref="b34.00.Nahum.text"/>
+			<itemref idref="b34.00.Nahum.footnotes"/>
+			<itemref idref="b35.00.Habakkuk.main"/>
+			<itemref idref="b35.00.Habakkuk.text"/>
+			<itemref idref="b35.00.Habakkuk.footnotes"/>
+			<itemref idref="b36.00.Zephaniah.main"/>
+			<itemref idref="b36.00.Zephaniah.text"/>
+			<itemref idref="b36.00.Zephaniah.footnotes"/>
+			<itemref idref="b37.00.Haggai.main"/>
+			<itemref idref="b37.00.Haggai.text"/>
+			<itemref idref="b37.00.Haggai.footnotes"/>
+			<itemref idref="b38.00.Zechariah.main"/>
+			<itemref idref="b38.00.Zechariah.text"/>
+			<itemref idref="b38.00.Zechariah.footnotes"/>
+			<itemref idref="b39.00.Malachi.main"/>
+			<itemref idref="b39.00.Malachi.text"/>
+			<itemref idref="b39.00.Malachi.footnotes"/>
+			<itemref idref="b40.00.Matthew.main"/>
+			<itemref idref="b40.00.Matthew.text"/>
+			<itemref idref="b40.01.Matthew.text"/>
+			<itemref idref="b40.00.Matthew.footnotes"/>
+			<itemref idref="b41.00.Mark.main"/>
+			<itemref idref="b41.00.Mark.text"/>
+			<itemref idref="b41.00.Mark.footnotes"/>
+			<itemref idref="b42.00.Luke.main"/>
+			<itemref idref="b42.00.Luke.text"/>
+			<itemref idref="b42.01.Luke.text"/>
+			<itemref idref="b42.00.Luke.footnotes"/>
+			<itemref idref="b43.00.John.main"/>
+			<itemref idref="b43.00.John.text"/>
+			<itemref idref="b43.01.John.text"/>
+			<itemref idref="b43.00.John.footnotes"/>
+			<itemref idref="b44.00.Acts.main"/>
+			<itemref idref="b44.00.Acts.text"/>
+			<itemref idref="b44.01.Acts.text"/>
+			<itemref idref="b44.00.Acts.footnotes"/>
+			<itemref idref="b45.00.Romans.main"/>
+			<itemref idref="b45.00.Romans.text"/>
+			<itemref idref="b45.00.Romans.footnotes"/>
+			<itemref idref="b46.00.1-Corinthians.main"/>
+			<itemref idref="b46.00.1-Corinthians.text"/>
+			<itemref idref="b46.00.1-Corinthians.footnotes"/>
+			<itemref idref="b47.00.2-Corinthians.main"/>
+			<itemref idref="b47.00.2-Corinthians.text"/>
+			<itemref idref="b47.00.2-Corinthians.footnotes"/>
+			<itemref idref="b48.00.Galatians.main"/>
+			<itemref idref="b48.00.Galatians.text"/>
+			<itemref idref="b48.00.Galatians.footnotes"/>
+			<itemref idref="b49.00.Ephesians.main"/>
+			<itemref idref="b49.00.Ephesians.text"/>
+			<itemref idref="b49.00.Ephesians.footnotes"/>
+			<itemref idref="b50.00.Philippians.main"/>
+			<itemref idref="b50.00.Philippians.text"/>
+			<itemref idref="b50.00.Philippians.footnotes"/>
+			<itemref idref="b51.00.Colossians.main"/>
+			<itemref idref="b51.00.Colossians.text"/>
+			<itemref idref="b51.00.Colossians.footnotes"/>
+			<itemref idref="b52.00.1-Thessalonians.main"/>
+			<itemref idref="b52.00.1-Thessalonians.text"/>
+			<itemref idref="b52.00.1-Thessalonians.footnotes"/>
+			<itemref idref="b53.00.2-Thessalonians.main"/>
+			<itemref idref="b53.00.2-Thessalonians.text"/>
+			<itemref idref="b53.00.2-Thessalonians.footnotes"/>
+			<itemref idref="b54.00.1-Timothy.main"/>
+			<itemref idref="b54.00.1-Timothy.text"/>
+			<itemref idref="b54.00.1-Timothy.footnotes"/>
+			<itemref idref="b55.00.2-Timothy.main"/>
+			<itemref idref="b55.00.2-Timothy.text"/>
+			<itemref idref="b55.00.2-Timothy.footnotes"/>
+			<itemref idref="b56.00.Titus.main"/>
+			<itemref idref="b56.00.Titus.text"/>
+			<itemref idref="b56.00.Titus.footnotes"/>
+			<itemref idref="b57.00.Philemon.main"/>
+			<itemref idref="b57.00.Philemon.text"/>
+			<itemref idref="b57.00.Philemon.footnotes"/>
+			<itemref idref="b58.00.Hebrews.main"/>
+			<itemref idref="b58.00.Hebrews.text"/>
+			<itemref idref="b58.00.Hebrews.footnotes"/>
+			<itemref idref="b59.00.James.main"/>
+			<itemref idref="b59.00.James.text"/>
+			<itemref idref="b59.00.James.footnotes"/>
+			<itemref idref="b60.00.1-Peter.main"/>
+			<itemref idref="b60.00.1-Peter.text"/>
+			<itemref idref="b60.00.1-Peter.footnotes"/>
+			<itemref idref="b61.00.2-Peter.main"/>
+			<itemref idref="b61.00.2-Peter.text"/>
+			<itemref idref="b61.00.2-Peter.footnotes"/>
+			<itemref idref="b62.00.1-John.main"/>
+			<itemref idref="b62.00.1-John.text"/>
+			<itemref idref="b62.00.1-John.footnotes"/>
+			<itemref idref="b63.00.2-John.main"/>
+			<itemref idref="b63.00.2-John.text"/>
+			<itemref idref="b63.00.2-John.footnotes"/>
+			<itemref idref="b64.00.3-John.main"/>
+			<itemref idref="b64.00.3-John.text"/>
+			<itemref idref="b64.00.3-John.footnotes"/>
+			<itemref idref="b65.00.Jude.main"/>
+			<itemref idref="b65.00.Jude.text"/>
+			<itemref idref="b65.00.Jude.footnotes"/>
+			<itemref idref="b66.00.Revelation.main"/>
+			<itemref idref="b66.00.Revelation.text"/>
+			<itemref idref="b66.00.Revelation.footnotes"/>
+			<itemref idref="d06.resources"/>
+			<itemref idref="d07.resources"/>
+			<itemref idref="d08.resources"/>
+			<itemref idref="d09.resources"/>
+			<itemref idref="d10.resources"/>
+			<itemref idref="d11.resources"/>
+			<itemref idref="d12.resources"/>
+			<itemref idref="d13.resources"/>
+			<itemref idref="d14.resources"/>
+			<itemref idref="d15.resources"/>
+			<itemref idref="d16.resources"/>
+			<itemref idref="d17.resources"/>
+			<itemref idref="d18.resources"/>
+			<itemref idref="d19.resources"/>
+			<itemref idref="d20.resources"/>
+			<itemref idref="d21.resources"/>
+			<itemref idref="d22.resources"/>
+			<itemref idref="d23.resources"/>
+			<itemref idref="d24.resources"/>
+			<itemref idref="d25.resources"/>
+			<itemref idref="d26.resources"/>
+			<itemref idref="d27.resources"/>
+			<itemref idref="d28.resources"/>
+			<itemref idref="d29.resources"/>
+			<itemref idref="d30.resources"/>
+			<itemref idref="d31.resources"/>
+			<itemref idref="d32.resources"/>
+			<itemref idref="d33.resources"/>
+			<itemref idref="d34.resources"/>
+			<itemref idref="d35.resources"/>
+			<itemref idref="d36.resources"/>
+			<itemref idref="d37.resources"/>
+			<itemref idref="d38.resources"/>
+			<itemref idref="d39.resources"/>
+			<itemref idref="d40.resources"/>
+			<itemref idref="d41.resources"/>
+			<itemref idref="d42.resources"/>
+			<itemref idref="d43.resources"/>
+			<itemref idref="d44.resources"/>
+		</spine>
+		<guide>
+			<reference type="text" title="Thank You" href="Text/a02.resources.html"></reference>
+			<reference type="cover" title="Cover Page" href="Text/a000.front-cover.html"></reference>
+		</guide>
+</package>
