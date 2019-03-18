@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Scriptures</title>
+    </head>
+
+    <body>
+        <div style="position: relative; margin-left: auto; margin-right: auto; width: 400px;">
+            <h1>{{book}} {{chapter}}</h1>
+
+            <div style="text-align: justify; text-justify: inter-word;">
+                {{#verses}}
+                    <span style="color: #aaa">{{number}}</span>
+                    {{verse}}
+                {{/verses}}
+            </div>
+        </div>
+    </body>
+</html>
