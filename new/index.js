@@ -7,14 +7,49 @@ const app = express();
 const port = 1435;
 const pageSize = 500; // characters per page
 
-app.get('/', (req, res) => render(res, 'bofm', '1-ne', '1'));
+app.get('/toc/:work/:book?', (req, res) =>
+    renderToc(res, req.params.work, req.params.book));
+
+app.get('/', (req, res) => renderPage(res, 'bofm', '1-ne', '1'));
 
 app.get('/:work/:book/:chapter/:verse?', (req, res) =>
-    render(res, req.params.work, req.params.book, req.params.chapter, req.params.verse));
+    renderPage(res, req.params.work, req.params.book, req.params.chapter, req.params.verse));
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
-function render(res, work, book, chapter, verse)
+function renderToc(res, work, book)
+{
+    try {
+        book = book || '1-ne';
+        var bookData = toc[work].books[book];
+    } catch (e)
+    {
+        console.log(e);
+        return res.send("Not found");
+    }
+
+    console.log(toc[work].books);
+    console.log(Object.keys(toc[work].books));
+
+    readFile('./views/toc.html')
+    .then(tocView =>
+        {
+            var books = Object.values(toc[work].books);
+
+            res.send(mustache.render(tocView, {
+                books
+            }));
+        }
+    )
+    .catch(err => 
+        {
+            console.log(err);
+            res.send("There was an error.");
+        }
+    );
+}
+
+function renderPage(res, work, book, chapter, verse)
 {
     try {
         // make sure the input matches an existing work/book/chapter
@@ -26,6 +61,7 @@ function render(res, work, book, chapter, verse)
             throw null;
     } catch (e)
     {
+        console.log(e);
         return res.send("Not found");
     }
 
