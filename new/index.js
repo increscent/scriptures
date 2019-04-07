@@ -28,16 +28,19 @@ function renderToc(res, work, book)
         return res.send("Not found");
     }
 
-    console.log(toc[work].books);
-    console.log(Object.keys(toc[work].books));
-
     readFile('./views/toc.html')
     .then(tocView =>
         {
-            var books = Object.values(toc[work].books);
+            var books = Object.values(toc[work].books)
+                .map(x => ({...x, link: (x.chapters == 1) ? 
+                    `/${work}/${x.abbr}/1` : `/toc/${work}/${x.abbr}`}));
+            var chapters = [...Array(toc[work].books[book].chapters).keys()]
+                .map(x => ({chapter: x+1, book}));
 
             res.send(mustache.render(tocView, {
-                books
+                work,
+                books,
+                chapters,
             }));
         }
     )
@@ -92,7 +95,9 @@ function renderPage(res, work, book, chapter, verse)
 
             res.send(mustache.render(chapterView, {
                 verses, 
-                book: bookData.name,
+                bookName: bookData.name,
+                work,
+                book,
                 chapter,
                 nextLink,
                 prevLink,
