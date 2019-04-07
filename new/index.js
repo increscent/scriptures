@@ -1,16 +1,26 @@
 const express = require('express');
 const fs = require('fs');
 const mustache = require('mustache');
+const cookieParser = require('cookie-parser');
 const toc = require('./toc.js');
 
 const app = express();
 const port = 1435;
 const pageSize = 500; // characters per page
 
+app.use(cookieParser());
+
 app.get('/toc/:work/:book?', (req, res) =>
     renderToc(res, req.params.work, req.params.book));
 
-app.get('/', (req, res) => renderPage(res, 'bofm', '1-ne', '1'));
+app.get('/', (req, res) =>
+    {
+        if (req.cookies.lastVisited)
+            res.redirect(req.cookies.lastVisited);
+        else
+            renderPage(res, 'bofm', '1-ne', '1');
+    }
+);
 
 app.get('/:work/:book/:chapter/:verse?', (req, res) =>
     renderPage(res, req.params.work, req.params.book, req.params.chapter, req.params.verse));
@@ -93,6 +103,7 @@ function renderPage(res, work, book, chapter, verse)
             var nextLink = `/${work}/${nextBook}/${nextChapter}/${nextVerse}`;
             var prevLink = `/${work}/${prevBook}/${prevChapter}/${prevVerse}`;
 
+            res.cookie('lastVisited', `/${work}/${book}/${chapter}/${verse}`);
             res.send(mustache.render(chapterView, {
                 verses, 
                 bookName: bookData.name,
