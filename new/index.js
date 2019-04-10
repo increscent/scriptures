@@ -103,7 +103,8 @@ function renderPage(res, work, book, chapter, verse)
             var nextLink = `/${work}/${nextBook}/${nextChapter}/${nextVerse}`;
             var prevLink = `/${work}/${prevBook}/${prevChapter}/${prevVerse}`;
 
-            res.cookie('lastVisited', `/${work}/${book}/${chapter}/${verse}`);
+            res.cookie('lastVisited', `/${work}/${book}/${chapter}/${verse}`,
+                    {maxAge: 16070400, httpOnly: true});
             res.send(mustache.render(chapterView, {
                 verses, 
                 bookName: bookData.name,
