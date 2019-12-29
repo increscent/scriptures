@@ -6,7 +6,7 @@ const TOC = require('./toc.js');
 
 const app = express();
 const port = 1435;
-const PAGE_SIZE = 600; // characters per page
+const PAGE_SIZE = 650; // characters per page
 
 var FILES = {};
 
