@@ -30,15 +30,25 @@
         </div>
 
         <script type="text/javascript">
-            document.body.addEventListener('keydown', (event) =>
-                {
-                    if (event.key == "ArrowRight")
-                        window.location.href = '{{{nextLink}}}';
-
-                    if (event.key == "ArrowLeft")
-                        window.location.href = '{{{prevLink}}}';
-                }
-            );
+            /*
+            document.uri = 'http://increscent.org';
+            var links = document.getElementsByTagName('A');
+            for (let i = 0; i < links.length; i++) {
+                let link = links.item(i);
+                fetch(link.attributes.href.nodeValue)
+                    .then(response => {
+                        return response.text();
+                    })
+                    .then(data => {
+                        link.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            document.open();
+                            document.write(data);
+                            document.close();
+                        });
+                    });
+            }
+            */
         </script>
     </body>
 </html>

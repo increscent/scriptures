@@ -12,6 +12,13 @@ var FILES = {};
 
 app.use(cookieParser());
 
+app.use((req, res, next) => {
+    if (req.query.reset) {
+        FILES = {};
+    }
+    next();
+});
+
 app.get('/toc/:work/:book?', (req, res) =>
     renderToc(res, req.params.work, req.params.book));
 
