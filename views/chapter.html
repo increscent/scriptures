@@ -12,13 +12,13 @@
             <table style="width: 100%">
                 <tr>
                     <td style="text-align: left">
-                        <a href="{{{prevLink}}}">&lsaquo;--</a>
+                        <a id="prev" href="{{{prevLink}}}">&lsaquo;--</a>
                     </td>
                     <td style="text-align: center">
                         <a href="/toc/{{work}}/{{book}}">{{bookName}} {{chapter}}</a>
                     </td>
                     <td style="text-align: right">
-                        <a href="{{{nextLink}}}">--&rsaquo;</a>
+                        <a id="next" href="{{{nextLink}}}">--&rsaquo;</a>
                     </td>
                 </tr>
             </table>
@@ -45,9 +45,7 @@
                 }
             });
 
-            var links = document.getElementsByTagName('A');
-            for (let i = 0; i < links.length; i++) {
-                let link = links.item(i);
+            [document.getElementById('prev'), document.getElementById('next')].forEach(link => {
                 let href = link.attributes.href.nodeValue;
                 fetch(href)
                     .then(response => {
@@ -64,7 +62,7 @@
                             document.close();
                         });
                     });
-            }
+            });
         </script>
     </body>
 </html>
