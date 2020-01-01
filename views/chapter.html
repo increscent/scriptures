@@ -2,6 +2,7 @@
 
 <html>
     <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
         <title>Scriptures</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -30,6 +31,8 @@
         </div>
 
         <script type="text/javascript">
+            document.cookie = `lastVisited=${document.location.pathname.toString()}; Max-Age=${60*60*24*365}; Path=/`;
+
             history.replaceState(
                 document.body.innerHTML.toString(),
                 '',

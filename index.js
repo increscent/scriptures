@@ -1,47 +1,61 @@
-const express = require('express');
+const http = require('http');
 const fs = require('fs');
 const mustache = require('mustache');
-const cookieParser = require('cookie-parser');
-const TOC = require('./toc.js');
 
-const app = express();
+const hostname = '127.0.0.1';
 const port = 1435;
 const PAGE_SIZE = 650; // characters per page
 
+const TOC = require('./toc.js');
 var FILES = {};
 
-app.use(cookieParser());
+const server = http.createServer((req, res) => {
+    res.send = (data, statusCode) => {
+        res.statusCode = statusCode || 200;
+        res.setHeader('Content-Type', 'text/html');
+        res.end(data);
+    };
 
-app.use((req, res, next) => {
-    if (req.query.reset) {
-        FILES = {};
+    res.redirect = (url) => {
+        res.statusCode = 302;
+        res.setHeader('Location', url);
+        res.end();
+    };
+
+    let cookieList = req.headers['cookie'] || '';
+    req.cookies = {};
+    cookieList.split('; ').map(x => {
+        let [name, value] = x.split('=');
+        req.cookies[name] = value;
+    });
+
+    let route = req.url.split('/').filter(x => x);
+
+    if (route.length == 0) {
+        if (req.cookies.lastVisited) {
+            return res.redirect(req.cookies.lastVisited);
+        } else {
+            return renderPage(res, 'bofm', '1-ne', '1');
+        }
     }
-    next();
+
+    if (route[0] == 'toc') {
+        return renderToc(res, route[1], route[2]);
+    }
+
+    return renderPage(
+        res,
+        route[0], // work
+        route[1], // book
+        route[2], // chapter
+        route[3], // verse
+        route[4]  // page
+    );
 });
 
-app.get('/toc/:work/:book?', (req, res) =>
-    renderToc(res, req.params.work, req.params.book));
-
-app.get('/', (req, res) =>
-    {
-        if (req.cookies.lastVisited)
-            res.redirect(req.cookies.lastVisited);
-        else
-            renderPage(res, 'bofm', '1-ne', '1');
-    }
-);
-
-app.get('/:work/:book/:chapter/:verse?/:page?', (req, res) =>
-    renderPage(
-        res,
-        req.params.work,
-        req.params.book,
-        req.params.chapter,
-        req.params.verse,
-        req.params.page
-    ));
-
-app.listen(port, () => console.log(`Listening on port ${port}`));
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}`);
+});
 
 function renderToc(res, work, book)
 {
@@ -51,7 +65,7 @@ function renderToc(res, work, book)
     } catch (e)
     {
         console.log(e);
-        return res.send("Not found");
+        return res.send('Not found', 404);
     }
 
     let tocView = readFile('./views/toc.html')
@@ -72,11 +86,11 @@ function renderToc(res, work, book)
 function renderPage(res, work, book, chapter, verse, page)
 {
     if (!TOC[work] || !TOC[work].books[book])
-        return res.send('Not found');
+        return res.send('Not found', 404);
 
     chapter = parseInt(chapter);
     if (chapter < 1 || chapter > TOC[work].books[book].chapters)
-        return res.send('Not found');
+        return res.send('Not found', 404);
 
     let [pages, versePages] = getChapterPages(work, book, chapter, PAGE_SIZE);
 
@@ -106,11 +120,9 @@ function renderPage(res, work, book, chapter, verse, page)
     var nextLink = `/${work}/${nextBook}/${nextChapter}/page/${nextPage}`;
     var prevLink = `/${work}/${prevBook}/${prevChapter}/page/${prevPage}`;
 
-    res.cookie('lastVisited', `/${work}/${book}/${chapter}/page/${page}`,
-        {
-            expire: new Date() + 1000*60*60*24*7*12,
-            maxAge: 1000*60*60*24*7*12
-        });
+    // This is done on the front end
+    // res.setHeader('Set-Cookie', 
+    //    `lastVisited=/${work}/${book}/${chapter}/page/${page}; Max-Age=${60*60*24*365}; Path=/`);
 
     res.send(mustache.render(chapterView, {
         content: pages[page-1], 
