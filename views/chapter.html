@@ -30,25 +30,38 @@
         </div>
 
         <script type="text/javascript">
-            /*
-            document.uri = 'http://increscent.org';
+            history.replaceState(
+                document.body.innerHTML.toString(),
+                '',
+                document.location.href.toString()
+            );
+
+            window.addEventListener('popstate', e => {
+                if (e.state) {
+                    document.body.innerHTML = e.state;
+                }
+            });
+
             var links = document.getElementsByTagName('A');
             for (let i = 0; i < links.length; i++) {
                 let link = links.item(i);
-                fetch(link.attributes.href.nodeValue)
+                let href = link.attributes.href.nodeValue;
+                fetch(href)
                     .then(response => {
                         return response.text();
                     })
                     .then(data => {
                         link.addEventListener('click', (e) => {
                             e.preventDefault();
+
+                            history.pushState('', '', href); // No state because it will be replaced
+
                             document.open();
                             document.write(data);
                             document.close();
                         });
                     });
             }
-            */
         </script>
     </body>
 </html>
